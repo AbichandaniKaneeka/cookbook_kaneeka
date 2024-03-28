@@ -1,0 +1,30 @@
+.navigation-item {display: inline-block; margin-left: 30px;}
+.logo , .menu-bar {display: inline-block; vertical-align:middle;}
+.banner-image {display: block;}
+.header {background-color:white; }
+.logo {width: 70px ; height:70px;}
+.menu-bar {width: calc(100%-150px);text-align: center;}
+.banner-image{width: 70vw; height: 35vh; margin-left: 15vw; object-fit:cover;margin-top: 15px;}
+body {text-align: center;}
+.body-content {width: 70vw; margin-left: 15vw; text-align: justify;}
+footer {background-color:rgb(223, 229, 223);  text-align: center; margin-left: 15vw; margin-right: 15vw;}
+.community {width: 300px; margin-left: calc( (100vw - 300px) / 2);}
+.lasagne-banner {width:350px;}
+.recipe-dropdown {display:none;}
+#recipes:hover {color:red}
+#recipes:hover ~ .recipe-dropdown {display: block;}
+.recipe-dropdown a {display:block;}
+h2 {text-align: center;}
+@media only screen and (min-width: 600px) 
+{
+    input[type=text] 
+    {width: 300px; display: inline-block !important;}
+    label {display:inline-block !important;}
+    .community {width: 800px; margin-left: calc( (100vw - 800px) / 2);}
+}
+.h1-p1 {width: 70vw; margin-left: 15vw; text-align: justify;}
+.h2-p1 {width: 70vw; margin-left: 15vw; text-align: justify;}
+.h3-p1 {width: 70vw; margin-left: 15vw; text-align: justify;}
+h3 {text-align: left; margin-left: 15vw;}
+.lasagne-prep {width: 500px; image-orientation:  center;}
+.h3-p2 {width: 70vw; margin-left: 15vw; text-align: justify;}
